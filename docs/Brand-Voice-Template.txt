@@ -1,0 +1,127 @@
+                             T H E B R A N D VO I C E F I L E
+                The template that makes AI write like YOU — by Zubair Trabzada · AI Workshop
+
+
+                           FILL IT ONCE · EVERY POST SOUNDS LIKE YOU FOREVER
+
+
+
+
+How to use it: copy the template below into a file called brand-voice.md (the ready-to-fill .md file comes
+with this pack). Upload it to Claude — or keep it in your Claude Code folder — and say: "Interview me to fill
+in my brand voice file." Claude asks you a few questions, fills it in, and from then on every post it writes is
+in your voice, with your stories, on your rules.
+
+
+   ⚠️ The example answers below belong to "Alex," a fictional Austin coffee roaster — so you can see what
+   GOOD looks like. Specific beats impressive: real numbers, real phrases, real stories. Replace everything with
+   yours.
+
+
+
+    WHO I AM
+    Alex — I roast coffee in small batches in Austin and ship it nationwide. 8 years, one
+    roastery, zero shortcuts.
+
+    One sentence. What you do + the detail that makes you different.
+
+
+
+
+    AUDIENCE
+    Home-coffee nerds aged 25-45 who own a grinder, hate bitter coffee, and want café results
+    without café prices.
+
+    Who follows you (or should)? What do they WANT that they don't have yet?
+
+
+
+
+    OFFERS & CALLS-TO-ACTION (rotate — one per post, never m ore )
+    1. Free shipping on first order → "link in bio"                    2. Coffee quiz → "DM me QUIZ"   3.
+    Wholesale → "DM me WHOLESALE"             4. Engagement → "tell me in the comments"
+
+
+
+
+    VOICE RULES
+    Funny↔Serious: 70% playful, serious about craft · Bold↔Humble: bold about coffee, humble
+    about me · Casual↔Polished: casual, like a text to a friend · Short↔Storyteller: short
+    lines, one story post a week
+    NEVER: hashtag walls, "elevate your coffee experience", fake urgency, trashing competitors,
+    politics
+  MY PHRASES (how I actually talk)
+  "life's too short for bitter coffee" · "roasted Tuesday, at your door Friday" · "your
+  grinder matters more than your machine" · "okay real talk"
+
+
+
+
+  MY STORIES (true + specific = the anti-AI-slo p fu el )
+  WIN: a Dallas café switched to us — espresso sales up 40% in two months; the owner texted
+  me a photo of the empty hopper.
+  FAILURE: burned a 60lb batch in 2021 trusting a new thermometer over my nose — $800 of
+  beans became garden mulch.
+  SURPRISE: my best-seller started as a mistake — pulled a batch 90 seconds early and
+  customers begged for "that lighter one."
+
+
+
+
+  PROOF I CAN CLAIM
+  8 years roasting · 40+ wholesale cafés · 4.9★ from 2,100 reviews · roast-to-door in 4 days
+
+
+
+
+  CONTENT PILLARS (my forever topics)
+  1. Brew better at home          2. Behind the roaster          3. Coffee myths, busted             4. Customer wins
+    5. New roast drops
+
+
+
+
+Platform styles — Claude reads the section for whichever platform you name
+
+
+  📸 INSTAGRAM
+    Hook = first line, max 8 words (assume it's cut off after that)
+    Short lines, white space, 1-2 emoji max · MAX 5 hashtags, niche, at the end
+    Formats: Reels (30s, hook in first 2 sec), carousels (slide 1 = big short text), single photos
+    Visual style: warm tones, real hands + real coffee, no stocky perfection
+
+
+
+
+  🐦 X / TWITTER
+    Every post ≤280 characters. Punchy. Hot takes welcome. No hashtags (or one, max)
+    Threads: first tweet must work alone; number the rest; end with the CTA
+
+
+
+
+  💼 LINKEDIN
+    150-300 words, one-line paragraphs, white space · max 3 hashtags
+    Angle: business lessons from the work (not just tips) · still sounds like me
+    No links in the post body — "link in comments"
+🎵 TIKTOK
+  30-second scripts: spoken words + on-screen text
+  Hook in the FIRST 2 seconds, visual and specific ("I burned $800 of coffee — smell this")
+  Casual, imperfect, behind-the-scenes energy
+
+
+
+
+👥 FACEBOOK
+  Conversational, 40-80 words, like talking to regulars · end with a question
+  Local angle whenever possible
+
+
+
+▶️ YOUTUBE COMMUNITY / SHORTS
+  Community: one image + one question or poll · Shorts: TikTok rules, slightly less slang
+
+
+
+   Pairs with THE SOCIAL AUTOPILOT prompt pack · Built with Claude Code + Claude Fable 5 · © Zubair Trabzada
+

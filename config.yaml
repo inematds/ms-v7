@@ -1,0 +1,75 @@
+# ms-v7 — configuração do Social Autopilot
+# Preencha com /ms-config (entrevista) ou edite à mão.
+# Tudo que está como null / [] ainda NÃO foi configurado — as skills avisam e caem no modo copy-paste.
+
+versao_config: 1
+
+# ---------------------------------------------------------------------------
+# MARCA ATIVA — qual pasta em brands/ as skills devem usar.
+# Pode haver várias marcas; só uma é a ativa por vez (troque aqui ou diga "usa a marca X").
+# ---------------------------------------------------------------------------
+marca_ativa: null            # ex.: inema  → lê brands/inema/brand-voice.md
+
+marcas:
+  # inema:
+  #   nome: INEMA
+  #   fuso: America/Sao_Paulo
+  #   idioma: pt-BR
+  #   redes:                       # só redes listadas aqui recebem posts
+  #     instagram: { conta: "@inemafuturos", ativa: true }
+  #     tiktok:    { conta: "@lnema.club",  ativa: true }
+  #     youtube:   { conta: "UC...",         ativa: false, motivo: "canal-origem do yt-pub-lives; agendar duplica" }
+  #     linkedin:  { conta: null,            ativa: false, motivo: "não disponível no plano Free da Metricool" }
+  #     x:         { conta: null,            ativa: false }
+  #     facebook:  { conta: null,            ativa: false }
+  #   publicacao:
+  #     provedor: metricool          # metricool | blotato | copiar  (ver pipeline/publicar.md)
+  #     metricool: { blogId: 6745962, plano: free, cota_mensal: 20 }
+  #   cota_mensal: 20                # teto de posts/mês que as skills respeitam (avisam em 90%)
+
+# ---------------------------------------------------------------------------
+# PROVEDORES — quem faz o quê. Cada um está documentado em pipeline/.
+# ---------------------------------------------------------------------------
+provedores:
+  publicacao:
+    padrao: copiar               # metricool | blotato | copiar — "copiar" = entrega o texto pronto, nunca chama API
+    disponiveis:
+      metricool: { tipo: mcp, status: validado_2026-08-19, doc: pipeline/publicar.md#metricool }
+      blotato:   { tipo: mcp, status: nao_testado,          doc: pipeline/publicar.md#blotato }
+      copiar:    { tipo: manual, status: sempre_funciona,   doc: pipeline/publicar.md#copiar }
+
+  imagem:
+    padrao: flux2-klein          # flux2-klein | magnific | nenhum
+    fallback: magnific           # usado quando o padrão não dá conta (referência de personagem, edição guiada, upscale)
+    disponiveis:
+      flux2-klein: { tipo: local, custo: 0,              doc: pipeline/visual.md#flux2-klein }
+      magnific:    { tipo: mcp,   custo: "5-100 créditos/imagem", doc: pipeline/visual.md#magnific }
+
+  video:
+    padrao: nenhum               # pixflow | video-explicativo | magnific-kling | nenhum
+    disponiveis:
+      pixflow:           { tipo: local, custo: 0,   doc: pipeline/visual.md#video }
+      video-explicativo: { tipo: local, custo: 0,   doc: pipeline/visual.md#video }
+      magnific-kling:    { tipo: mcp,   custo: "140 créditos / 5s", doc: pipeline/visual.md#video }
+
+  hospedagem:                    # onde a mídia fica pública (provedores MCP só aceitam URL direta)
+    padrao: gh-release
+    disponiveis:
+      gh-release: { repo: inematds/midia, tag: v1, doc: pipeline/publicar.md#hospedagem }
+
+  pesquisa:
+    padrao: agent-reach          # agent-reach | websearch | nenhum
+
+  voz_tts:                       # narração para Reels/TikTok, se precisar
+    padrao: inemavox
+    engine: chatterbox
+    voz: rachel
+
+# ---------------------------------------------------------------------------
+# REGRAS DE SEGURANÇA — não mudam por marca
+# ---------------------------------------------------------------------------
+regras:
+  aprovacao_obrigatoria: true    # nada é agendado/publicado sem "sim" explícito no chat
+  respostas_no_gate: [sim, rascunho, nao]   # sim=publica/agenda · rascunho=draft no planner · nao=só texto
+  avisar_cota_em: 0.9            # avisa quando posts do mês >= 90% da cota
+  saida_arquivos: ~/projetos/output/ms-v7   # imagens/vídeos gerados (regra global de output)

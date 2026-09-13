@@ -1,0 +1,12 @@
+output/
+*.mp4
+*.mov
+*.wav
+*.mp3
+# imagens só entram no repo dentro de posts/ (aprovadas)
+*.png
+*.jpg
+*.jpeg
+!posts/**/*.png
+!posts/**/*.jpg
+.DS_Store

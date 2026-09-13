@@ -1,0 +1,154 @@
+                   T H E S O C I A L A U TO P I LOT
+                          Free Prompt Pack — by Zubair Trabzada · AI Workshop
+
+
+                            YOUR VOICE · ANY PLATFORM · POSTS ITSELF
+
+
+
+
+This is the system from the video. One brand-voice file + one adaptive prompt, and Claude
+interviews you (three questions), researches what's working on your platform today, writes the post
+in your voice — and schedules it through your connected posting tool. You just approve.
+
+
+Before you start (~10 minutes, once)
+
+
+
+         Claude Code installed and logged in → claude.com/claude-code (claude.ai works too —
+         just upload your brand-voice file to the chat)
+
+         Your brand-voice file — grab the template that comes with this pack (brand-voice-
+         template.md), fill it in, or let Prompt 1 build it for you
+
+         Optional — auto-posting: a posting MCP like Blotato connected to Claude Code
+         (blotato.com → API key → their MCP guide → connect your socials). No MCP? Claude
+         gives you copy-paste posts instead. Ask Claude Code: "list my connected MCP tools"
+
+         Optional — AI visuals: the Higgsfield MCP for images and Reels (higgsfield.ai)
+  PROMPT 1 — ONCE
+
+
+Build Your Brand Voice File                   🧬
+   I've attached my brand-voice template (brand-voice-template.md). Interview me to
+   fill it in — ask ONE question at a time, and push back when my answers are vague
+   or generic.
+
+   Cover: who I am in one sentence, exactly who my audience is and what they want,
+   my offers and calls-to-action, my voice (funny↔serious, bold↔humble,
+   casual↔polished), 5 phrases I actually say, what I'd NEVER post, 3 short TRUE
+   stories from my work with real details and numbers, and my 3-5 forever topics.
+
+   Then save the completed file as brand-voice.md, keeping the per-platform style
+   sections from the template. Write it so an AI reading ONLY this file could post
+   as me — and my followers wouldn't notice the difference.
+
+
+
+This file is the whole secret. Everyone else's AI posts sound like AI. Yours will sound like you — because
+it's built from your stories, your phrases, your rules.
+  PROMPT 2 — THE MASTER PROMPT (daily)
+
+
+One Prompt, Any Platform               🎯
+   Read my brand-voice.md. Then interview me — exactly 3 questions, ONE at a time.
+   Wait for my answer before the next question:
+
+   1. Which platform am I posting to today — Instagram, X, LinkedIn, TikTok,
+   Facebook, or YouTube?
+   2. What's the topic — something that happened to me, something I want to teach,
+   an offer to push… or should you research what's trending in my niche right now
+   and pitch me 5 angles?
+   3. What's the goal — grow followers, get DMs and leads, sell an offer, or start
+   conversations?
+
+   Then, with no further questions: research online what's working on that platform
+   for that kind of content THIS week (hooks, formats, length). Write me 3 post
+   options that follow the platform rules in my brand-voice file, in MY voice —
+   every option must include at least one specific story, number, or phrase from my
+   file that nobody else could post. No AI-speak ("game-changer", "unlock", "delve",
+   rhetorical-question openers). End each with ONE call-to-action from my file that
+   matches my goal.
+
+   I'll pick one. If a visuals tool (like Higgsfield) is connected, generate a
+   matching visual in my visual style — correct format for the platform (vertical
+   9:16 for Reels/TikTok, 4:5 for feed posts). If my posting tool (like Blotato) is
+   connected, show me the final post + proposed time and schedule it ONLY after I
+   say yes. Never post without my approval. If nothing is connected, give me the
+   final post ready to copy-paste.
+
+
+
+That's the whole system. Three answers from you → researched, on-brand, platform-native post →
+approved → published.
+     P R O M P T 3 — W E E K LY ( 1 5 m i n )
+
+
+   The Full Week on Autopilot                   ♻️
+      Read my brand-voice.md. Ask me the same 3 questions, but for the WEEK: which
+      platform(s), any topics or news from my week I should work in (or research
+      trending angles), and my #1 goal this week.
+
+      Then: plan 5-7 posts across the week (mix formats the platform rewards — for
+      Instagram: reels, carousels, singles; for X: posts + one thread; for LinkedIn:
+      stories + one contrarian take). Show me the plan as a table and WAIT for my
+      edits. After I approve: write every post per my brand-voice rules, generate the
+      visuals if my visuals tool is connected, then show me the complete queue — day,
+      time, platform, text, visual — and schedule it through my posting tool only after
+      my explicit yes.
+
+      Next week, start by telling me which of last week's posts did best and apply what
+      we learned.
+
+
+
+   Your new routine: answer 3 questions, approve a plan, approve a queue. ~15 minutes a week.
+
+
+
+
+     BONUS — REPURPOSE
+
+
+   Turn One Thing Into Everything                    🔁
+      Read my brand-voice.md. Here is my latest [video transcript / blog post / podcast
+      notes]: [PASTE IT]. Ask me which platforms to target (that's your only question),
+      then turn it into platform-native posts for each — every piece standalone (never
+      "in this video"), pulling the most surprising specific moments, my voice rules
+      applied. Then queue them like always: show me everything, post nothing without my
+      yes.
+
+
+
+
+The rules that make this work
+
+
+
+        The brand-voice file does the heavy lifting. One new story added to it = weeks of fresh,
+        unfakeable content.
+
+        Approval is a feature, not friction. Claude drafts and schedules; nothing goes live
+        without your yes.
+
+        Platform rules live in the file — hooks ≤8 words, IG max 5 hashtags, X ≤280, LinkedIn
+        150-300 words with white space. Claude reads them every time, so every post lands
+      native.
+
+      If a post could belong to a competitor, delete it. The "would my followers believe I
+      wrote this?" test beats every growth hack.
+
+
+
+
+Want it running by VOICE?
+"Jarvis — run the content engine." The full version lives inside my JARVIS assistant: voice-
+controlled, approval cards on screen, overnight runs ("I prepared your week while you slept,
+sir"), web research, and every upgrade I ship. Jarvis is not for sale — members get him.
+
+
+   👉 skool.com/aiworkshop
+Built with Claude Code + Claude Fable 5 · Post your first autopilot post in the community — best one gets featured. · ©
+                                                   Zubair Trabzada
+
