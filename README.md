@@ -168,13 +168,17 @@ O portal aponta para uma **página landing + guia** servida pelo GitHub Pages **
 
 Gera `guia/index.html` (self-contained, padrão INEMA dark âmbar) com `guia/assets/` ao lado.
 
-**Passo 2 — ativar o GitHub Pages** (branch `master`, pasta `/`):
+**Passo 2 — ativar o GitHub Pages via GitHub Actions** (o workflow `.github/workflows/pages.yml` já está no repo; não usar o build "legacy" por branch, que trava):
 
 ```bash
 gh repo edit inematds/ms-v7 --visibility public --accept-visibility-change-consequences   # Pages exige repo público no plano free
-gh api -X POST repos/inematds/ms-v7/pages -f 'source[branch]=master' -f 'source[path]=/'
-git add guia && git commit -m "docs: guia landing" && git push
+gh api -X POST repos/inematds/ms-v7/pages -f build_type=workflow \
+  || gh api -X PUT repos/inematds/ms-v7/pages -f build_type=workflow
+git add guia && git commit -m "docs: guia landing" && git push   # o push dispara o deploy
+gh run list --repo inematds/ms-v7 --limit 3                       # acompanhar
 ```
+
+> Commits que tocam `.github/workflows/` precisam ir por SSH (`git@github.com:inematds/ms-v7.git`): o token HTTPS da conta `inematds` não tem o escopo `workflow`. O remote deste repo já é SSH.
 
 URL resultante: `https://inematds.github.io/ms-v7/guia/`. Conferir com `curl -sI <url> | head -1` (tem que responder 200).
 
