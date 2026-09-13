@@ -4,6 +4,10 @@ Um arquivo de voz de marca + 3 prompts → posts nativos por rede, na sua voz, a
 
 Adaptado de *The Social Autopilot* (Zubair Trabzada, AI Workshop). Os originais (prompt pack, template de voz, transcrição do vídeo) estão em `docs/`. O plano de implementação está em `docs/PLANO.md`.
 
+## 📖 Guia de uso
+
+Guia completo (landing + passo a passo): **https://inematds.github.io/ms-v7/guia/**
+
 ---
 
 ## 1. Como funciona (em 1 minuto)
@@ -156,7 +160,7 @@ Regras:
 
 O portal aponta para uma **página landing + guia** servida pelo GitHub Pages **deste mesmo repo** (nunca um repo separado).
 
-**Passo 1 — criar o guia** (ainda não existe neste repo):
+**Passo 1 — criar o guia** (já existe em `guia/index.html`; regerar se mudar o projeto):
 
 ```
 /projetos-landing-guia
@@ -206,7 +210,7 @@ ms-v7/
 │   └── semanas/<AAAA-WW>.md          plano + retro de cada semana
 ├── .claude/skills/
 │   ├── ms-config/   ms-post/   ms-semana/   ms-reaproveita/
-├── guia/                      (a criar) landing + guia para o portal
+├── guia/                      landing + guia (GitHub Pages) → inematds.github.io/ms-v7/guia/
 └── docs/                      originais do pack + PLANO.md
 ```
 

@@ -10,3 +10,5 @@ output/
 !posts/**/*.png
 !posts/**/*.jpg
 .DS_Store
+!guia/assets/*.jpg
+!capa/capa.png
