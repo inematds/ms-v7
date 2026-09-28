@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
-<html lang="pt-BR">
+<html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>MS-v7 Social Autopilot — posts na sua voz, aprovados por você</title>
-<meta content="Um arquivo de voz de marca + 3 prompts no Claude Code: pesquisa, escreve na sua voz, gera o visual e agenda pelo provedor que você escolher. Nada vai ao ar sem o seu sim." name="description"/>
+<title>MS-v7 Social Autopilot — posts in your voice, approved by you</title>
+<meta content="One brand voice file + 3 prompts in Claude Code: it researches, writes in your voice, generates the visual, and schedules through the provider you choose. Nothing goes live without your yes." name="description"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet"/>
@@ -92,7 +92,7 @@
   .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:.3em .8em;font-size:.78rem;color:var(--mut);margin:0 4px}
 </style>
 <link href="https://inematds.github.io/ms-v7/guia/" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/ms-v7/guia/en/" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/ms-v7/guia/es/" hreflang="es" rel="alternate"/></head>
-<body><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="./" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">PT</a><a href="en/" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="es/" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<body><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="./" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">EN</a><a href="../es/" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
 <nav><div class="wrap">
 <a class="brand" href="#top"><span class="emoji">📣</span> MS-v7</a>
 <span class="sep">|</span>
@@ -102,12 +102,12 @@
 <a class="pro" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
 </span>
 <div class="links">
-<a class="sec" href="#oque">O que é</a>
-<a class="sec" href="#fluxo">Como funciona</a>
-<a class="sec" href="#guia">Guia de uso</a>
-<a class="sec" href="#exemplos">Exemplos</a>
+<a class="sec" href="#oque">What it is</a>
+<a class="sec" href="#fluxo">How it works</a>
+<a class="sec" href="#guia">User guide</a>
+<a class="sec" href="#exemplos">Examples</a>
 <a class="sec" href="#roadmap">Roadmap</a>
-<button aria-label="Alternar tema" class="tgl" id="themeToggle" title="Alternar tema">🌙</button>
+<button aria-label="Toggle theme" class="tgl" id="themeToggle" title="Toggle theme">🌙</button>
 <a class="btn" href="https://github.com/inematds/ms-v7" rel="noopener" target="_blank">GitHub</a>
 </div>
 </div></nav>
@@ -116,109 +116,109 @@
 <div class="wrap">
 <div>
 <span class="chip">Social Autopilot · Claude Code</span>
-<h1>Posts na <span class="amb">sua voz</span>, em qualquer rede, aprovados por você</h1>
-<p class="lead">Um arquivo de voz de marca + 3 comandos. O Claude pesquisa, escreve, gera o visual e agenda. Nada vai ao ar sem o seu "sim".</p>
+<h1>Posts on <span class="amb">your voice</span>, on any network, approved by you</h1>
+<p class="lead">One brand voice file + 3 commands. Claude researches, writes, generates the visual, and schedules. Nothing goes live without your "yes."</p>
 <div class="cta">
-<a class="btn" href="#guia">Começar o guia</a>
-<a class="btn ghost" href="https://github.com/inematds/ms-v7" rel="noopener" target="_blank">Ver no GitHub</a>
+<a class="btn" href="#guia">Start the guide</a>
+<a class="btn ghost" href="https://github.com/inematds/ms-v7" rel="noopener" target="_blank">View on GitHub</a>
 </div>
 </div>
-<figure><img alt="Ilustração do MS-v7 Social Autopilot" src="assets/hero.jpg"/></figure>
+<figure><img alt="Illustration of MS-v7 Social Autopilot" src="../assets/hero.jpg"/></figure>
 </div>
 </header>
 <section id="oque"><div class="wrap">
-<span class="chip">O que é</span>
-<h2>Automação de redes sociais sem código, sem parecer IA</h2>
-<p class="sub">Adaptação do "Social Autopilot" para a stack INEMA: tudo roda dentro do Claude Code, com provedores, marcas e redes configuráveis num único <code>config.yaml</code>.</p>
+<span class="chip">What it is</span>
+<h2>Social media automation without code, without sounding like AI</h2>
+<p class="sub">Adaptation of “Social Autopilot” for the INEMA stack: everything runs inside Claude Code, with providers, brands, and networks configurable in a single <code>config.yaml</code>.</p>
 <div class="grid g3">
-<div class="card"><h3>🧬 Voz de marca</h3><p>Um <code>brand-voice.md</code> por marca: quem você é, público, ofertas, frases reais, histórias verdadeiras e regras por rede. É o que faz o post soar como você.</p></div>
-<div class="card"><h3>🔌 Provedores plugáveis</h3><p>Publicação via Metricool (validado), Blotato ou copiar à mão. Imagem com flux2-klein ou Magnific. Troca de provedor é uma linha no config.</p></div>
-<div class="card"><h3>✅ Aprovação é feature</h3><p>Toda publicação passa pelo gate <em>sim / rascunho / não</em>. Nada é agendado sem a sua resposta explícita na conversa.</p></div>
+<div class="card"><h3>🧬 Brand voice</h3><p>One <code>brand-voice.md</code> by brand: who you are, your audience, your offerings, real phrases, true stories, and rules for each network. That’s what makes the post sound like you.</p></div>
+<div class="card"><h3>🔌 Pluggable providers</h3><p>Publishing via Metricool (validated), Blotato, or manual copy. Image with flux2-klein or Magnific. Switching providers is one line in the config.</p></div>
+<div class="card"><h3>✅ Approval is a feature</h3><p>Every publication goes through the gate <em>yes / draft / no</em>. Nothing is scheduled without your explicit reply in the conversation.</p></div>
 </div>
 </div></section>
 <section id="fluxo"><div class="wrap">
-<span class="chip">Como funciona</span>
-<h2>Três perguntas, três opções, um "sim"</h2>
-<p class="sub">O fluxo diário do <code>/ms-post</code>. O semanal (<code>/ms-semana</code>) faz o mesmo para 5-7 posts de uma vez, com retro por analytics antes.</p>
+<span class="chip">How it works</span>
+<h2>Three questions, three options, one "yes"</h2>
+<p class="sub">The daily workflow of <code>/ms-post</code>. The weekly one (<code>/ms-semana</code>) does the same for 5–7 posts at once, with a retrospective based on analytics first.</p>
 <div class="flow">
 <span>config.yaml + brand-voice.md</span><span class="arr">→</span>
-<span>rede · tema · objetivo</span><span class="arr">→</span>
-<span>pesquisa do que funciona</span><span class="arr">→</span>
-<span>3 opções na sua voz</span><span class="arr">→</span>
+<span>network · topic · goal</span><span class="arr">→</span>
+<span>research into what works</span><span class="arr">→</span>
+<span>3 options in your voice</span><span class="arr">→</span>
 <span>visual</span><span class="arr">→</span>
-<span>"Agendo?"</span><span class="arr">→</span>
-<span>provedor agenda</span>
+<span>“Schedule?”</span><span class="arr">→</span>
+<span>provider schedules</span>
 </div>
 <div class="grid g4" style="margin-top:28px">
-<div class="card"><div class="num">1</div><h3>/ms-config</h3><p>Entrevista de voz (uma pergunta por vez), redes ativas e provedores. Uma vez por marca.</p></div>
-<div class="card"><div class="num">2</div><h3>/ms-post</h3><p>O post de hoje. Três perguntas, três opções, visual e agendamento.</p></div>
-<div class="card"><div class="num">3</div><h3>/ms-semana</h3><p>Retro da semana passada, tabela de 5-7 posts para aprovar, fila agendada. ~15 min.</p></div>
-<div class="card"><div class="num">4</div><h3>/ms-reaproveita</h3><p>Transcrição, artigo ou URL vira um post autônomo por rede.</p></div>
+<div class="card"><div class="num">1</div><h3>/ms-config</h3><p>Voice interview (one question at a time), active networks, and providers. Once per brand.</p></div>
+<div class="card"><div class="num">2</div><h3>/ms-post</h3><p>Today's post. Three questions, three options, a visual, and scheduling.</p></div>
+<div class="card"><div class="num">3</div><h3>/ms-semana</h3><p>Last week's retrospective, a table of 5-7 posts to approve, scheduled queue. ~15 min.</p></div>
+<div class="card"><div class="num">4</div><h3>/ms-reaproveita</h3><p>A transcript, article, or URL becomes a standalone post for each network.</p></div>
 </div>
 </div></section>
 <section id="pre"><div class="wrap">
-<span class="chip">Pré-requisitos</span>
-<h2>O que precisa estar pronto</h2>
-<p class="sub">Só o Claude Code é obrigatório. Sem provedor de publicação, as skills entregam o texto pronto para copiar.</p>
+<span class="chip">Prerequisites</span>
+<h2>What needs to be ready</h2>
+<p class="sub">Only Claude Code is required. Without a publishing provider, the skills deliver ready-to-copy text.</p>
 <div class="grid g3">
-<div class="card"><h3>Claude Code</h3><p>Plano Pro ou superior. Abra dentro da pasta do projeto: ele lê o <code>CLAUDE.md</code> sozinho.</p><pre><span class="c"># clonar e abrir</span>
+<div class="card"><h3>Claude Code</h3><p>Pro plan or higher. Open it inside the project folder: it reads the <code>CLAUDE.md</code> on its own.</p><pre><span class="c"># clone and open</span>
 <span class="k">git clone</span> <span class="s">git@github.com:inematds/ms-v7.git</span> ~/projetos/ms-v7
 <span class="k">cd</span> ~/projetos/ms-v7 &amp;&amp; <span class="k">claude</span></pre></div>
-<div class="card"><h3>Metricool MCP (opcional)</h3><p>Agenda Instagram, TikTok e mais. Plano Free: 20 posts/mês, sem LinkedIn/X.</p><pre><span class="k">claude mcp add</span> --transport http metricool \
+<div class="card"><h3>Metricool MCP (optional)</h3><p>Schedule Instagram, TikTok, and more. Free plan: 20 posts/month, no LinkedIn/X.</p><pre><span class="k">claude mcp add</span> --transport http metricool \
   <span class="s">https://ai.metricool.com/mcp</span> -s user
-<span class="c"># depois: /mcp → metricool → Authenticate</span></pre></div>
-<div class="card"><h3>Host de mídia (opcional)</h3><p>Provedores MCP só aceitam URL direta. O padrão é um GitHub Release; as skills sobem sozinhas.</p><pre><span class="k">gh release upload</span> v1 arquivo.png \
+<span class="c"># later: /mcp → metricool → Authenticate</span></pre></div>
+<div class="card"><h3>Media host (optional)</h3><p>MCP providers only accept direct URLs. The default is a GitHub Release; the skills upload automatically.</p><pre><span class="k">gh release upload</span> v1 arquivo.png \
   --repo inematds/midia --clobber</pre></div>
 </div>
 </div></section>
 <section id="guia"><div class="wrap">
-<span class="chip">Guia de uso · passo a passo</span>
-<h2>Do zero ao primeiro post agendado</h2>
-<p class="sub">Todos os comandos abaixo são digitados dentro do Claude Code, na pasta do projeto. As perguntas são sempre em texto livre, uma por vez.</p>
+<span class="chip">User guide · step by step</span>
+<h2>From zero to your first scheduled post</h2>
+<p class="sub">Enter all commands below inside Claude Code, in the project folder. Questions are always asked in free text, one at a time.</p>
 <div class="step"><div class="b">1</div><div>
-<h3>Configure a marca</h3>
-<p>Cria <code>brands/&lt;slug&gt;/brand-voice.md</code> com entrevista e preenche o <code>config.yaml</code>. Se a marca já está descrita em algum lugar, diga onde: ele pré-preenche e só pergunta o que falta.</p>
-<pre><span class="k">/ms-config</span>  <span class="c"># voz → redes ativas → provedor de publicação → teste de voz</span></pre>
+<h3>Configure the brand</h3>
+<p>Create <code>brands/&lt;slug&gt;/brand-voice.md</code> with an interview and fills in the <code>config.yaml</code>. If the brand is already described somewhere, say where: it pre-fills the details and only asks what’s missing.</p>
+<pre><span class="k">/ms-config</span>  <span class="c"># voice → active networks → publishing provider → voice test</span></pre>
 </div></div>
 <div class="step"><div class="b">2</div><div>
-<h3>Faça o post de hoje</h3>
-<p>Responda rede, tema e objetivo. Ele pesquisa o que está funcionando na rede, escreve 3 opções com uma história ou número do seu arquivo, e você escolhe.</p>
+<h3>Create today’s post</h3>
+<p>Answer with the network, topic, and goal. It researches what's working on the network, writes 3 options with a story or number from your file, and you choose.</p>
 <pre><span class="k">/ms-post</span>
-<span class="c"># 1. Rede?      → instagram</span>
-<span class="c"># 2. Tema?      → "por que ler o system prompt"  (ou "pesquise o que está em alta")</span>
-<span class="c"># 3. Objetivo?  → seguidores</span></pre>
+<span class="c"># 1. Network?      → instagram</span>
+<span class="c"># 2. Topic?      → “why read the system prompt”  (or “research what’s trending”)</span>
+<span class="c"># 3. Goal?  → followers</span></pre>
 </div></div>
 <div class="step"><div class="b">3</div><div>
-<h3>Aprove o visual e o agendamento</h3>
-<p>O visual sai do provedor de imagem configurado. Depois ele mostra o post final com o melhor horário e espera a sua resposta.</p>
-<pre><span class="c"># Visual ok?                        → sim</span>
-<span class="c"># Agendo? (sim / rascunho / não)</span>
-<span class="k">sim</span>       <span class="c"># agenda com publicação automática</span>
-<span class="k">rascunho</span>  <span class="c"># fica no planner do provedor, não publica</span>
-<span class="k">não</span>       <span class="c"># só o texto, para copiar</span></pre>
+<h3>Approve the visual and the schedule</h3>
+<p>The visual comes from the configured image provider. Then it shows you the final post with the best time and waits for your response.</p>
+<pre><span class="c"># Visual OK?                        → yes</span>
+<span class="c"># Schedule? (yes / draft / no)</span>
+<span class="k">sim</span>       <span class="c"># schedule with automatic publishing</span>
+<span class="k">rascunho</span>  <span class="c"># stays in the provider’s planner; it doesn’t publish</span>
+<span class="k">não</span>       <span class="c"># text only, ready to copy</span></pre>
 </div></div>
 <div class="step"><div class="b">4</div><div>
-<h3>Planeje a semana em 15 minutos</h3>
-<p>Retro dos últimos 7 dias via analytics, três perguntas para a semana, tabela de 5-7 posts para você editar, e a fila inteira agendada com um único "sim".</p>
-<pre><span class="k">/ms-semana</span>  <span class="c"># retro → 3 perguntas → tabela → "Edita algo ou aprovo?" → fila → "Agendo a fila?"</span></pre>
+<h3>Plan your week in 15 minutes</h3>
+<p>Retrospective of the last 7 days via analytics, three questions for the week, a table of 5-7 posts for you to edit, and the entire queue scheduled with a single "yes."</p>
+<pre><span class="k">/ms-semana</span>  <span class="c"># retro → 3 questions → table → “Edit anything or should I approve?” → queue → “Schedule the queue?”</span></pre>
 </div></div>
 <div class="step"><div class="b">5</div><div>
-<h3>Reaproveite um vídeo ou artigo</h3>
-<p>Cole a transcrição, o caminho do arquivo ou a URL. Única pergunta: quais redes. Cada post sai autônomo, nunca "neste vídeo".</p>
-<pre><span class="k">/ms-reaproveita</span> <span class="s">https://youtube.com/watch?v=...</span>  <span class="c"># ou um .md, .txt, URL de artigo</span></pre>
+<h3>Repurpose a video or article</h3>
+<p>Paste the transcript, file path, or URL. The only question: which networks. Each post stands on its own, never says “in this video.”</p>
+<pre><span class="k">/ms-reaproveita</span> <span class="s">https://youtube.com/watch?v=...</span>  <span class="c"># or an .md, .txt, article URL</span></pre>
 </div></div>
 <div class="step"><div class="b">6</div><div>
-<h3>Publique no git</h3>
-<p>As skills commitam ao final de cada post. Você só dá o push; o histórico fica em <code>posts/</code>.</p>
-<pre><span class="k">git push</span>  <span class="c"># autor inematds &lt;inematds@gmail.com&gt;</span></pre>
+<h3>Publish on git</h3>
+<p>The skills commit at the end of each post. You just push; the history stays in <code>posts/</code>.</p>
+<pre><span class="k">git push</span>  <span class="c"># author inematds &lt;inematds@gmail.com&gt;</span></pre>
 </div></div>
 </div></section>
 <section id="exemplos"><div class="wrap">
-<span class="chip">Exemplos</span>
-<h2>O que entra e o que sai</h2>
-<p class="sub">O <code>config.yaml</code> decide quem faz o quê. O <code>brand-voice.md</code> decide como soa.</p>
+<span class="chip">Examples</span>
+<h2>What goes in and what comes out</h2>
+<p class="sub">O <code>config.yaml</code> decides who does what. The <code>brand-voice.md</code> decides how it sounds.</p>
 <div class="ex">
-<figure><pre style="border-radius:0;border:none;margin:0"><span class="c"># config.yaml (trecho)</span>
+<figure><pre style="border-radius:0;border:none;margin:0"><span class="c"># config.yaml (excerpt)</span>
 marca_ativa: <span class="s">inema</span>
 marcas:
   inema:
@@ -229,23 +229,23 @@ marcas:
     publicacao:
       provedor: <span class="s">metricool</span>
 provedores:
-  imagem: { padrao: <span class="s">flux2-klein</span>, fallback: <span class="s">magnific</span> }</pre><figcaption>Marca, redes ativas e provedores num só arquivo. Rede inativa recebe só texto para copiar.</figcaption></figure>
-<figure><img alt="Capa oficial do MS-v7 no catálogo INEMA" src="assets/capa.jpg"/><figcaption>Capa do projeto no catálogo INEMA. Os posts ficam em <code>posts/&lt;data&gt;-&lt;slug&gt;/post.md</code> com status, id e visual aprovado.</figcaption></figure>
+  imagem: { padrao: <span class="s">flux2-klein</span>, fallback: <span class="s">magnific</span> }</pre><figcaption>Brand, active networks, and providers in one file. Inactive networks receive only text to copy.</figcaption></figure>
+<figure><img alt="Official MS-v7 cover in the INEMA catalog" src="../assets/capa.jpg"/><figcaption>Project cover in the INEMA catalog. Posts are in <code>posts/&lt;data&gt;-&lt;slug&gt;/post.md</code> with status, ID, and approved visual.</figcaption></figure>
 </div>
 </div></section>
 <section id="roadmap"><div class="wrap">
 <span class="chip">Roadmap</span>
-<h2>Onde está e para onde vai</h2>
-<p class="sub">Versão 1.0.0. O fluxo manual roda primeiro; automação por cron só depois de semanas sem falha.</p>
-<div class="phase"><div class="tag">v1.0</div><div class="d"><strong>Base configurável</strong><span>config.yaml, template de voz, 4 skills, receitas de Metricool / Blotato / copiar, flux2-klein e Magnific. Publicado.</span></div></div>
-<div class="phase"><div class="tag">próx.</div><div class="d"><strong>Primeira marca real</strong><span>Rodar /ms-config na INEMA, validar o carrossel no Metricool e o primeiro post publicado de ponta a ponta.</span></div></div>
-<div class="phase"><div class="tag">fase 2</div><div class="d"><strong>Mais redes e vídeo</strong><span>LinkedIn/X via plano pago ou Blotato; Reels gerados com kling via Magnific quando a cena não dá para filmar.</span></div></div>
-<div class="phase"><div class="tag">fase 3</div><div class="d"><strong>Semana automática</strong><span>/ms-semana agendado toda segunda pela skill schedule, mantendo o gate de aprovação.</span></div></div>
+<h2>Where it is and where it's going</h2>
+<p class="sub">Version 1.0.0. The manual workflow runs first; cron automation only comes after weeks without failures.</p>
+<div class="phase"><div class="tag">v1.0</div><div class="d"><strong>Configurable foundation</strong><span>config.yaml, voice template, 4 skills, Metricool / Blotato / copy recipes, flux2-klein, and Magnific. Published.</span></div></div>
+<div class="phase"><div class="tag">next</div><div class="d"><strong>First real brand</strong><span>Run /ms-config on INEMA, validate the carousel in Metricool and the first post published end to end.</span></div></div>
+<div class="phase"><div class="tag">phase 2</div><div class="d"><strong>More networks and video</strong><span>LinkedIn/X via a paid plan or Blotato; Reels generated with kling via Magnific when the scene can't be filmed.</span></div></div>
+<div class="phase"><div class="tag">phase 3</div><div class="d"><strong>Automatic week</strong><span>/ms-semana scheduled every Monday by the schedule skill, keeping the approval gate.</span></div></div>
 </div></section>
 <footer>
 <div class="wrap">
 <div class="pill">Claude Code</div><div class="pill">Metricool MCP</div><div class="pill">flux2-klein</div><div class="pill">Magnific</div><div class="pill">GitHub Pages</div>
-<p style="margin-top:18px">MS-v7 · Social Autopilot adaptado para a stack INEMA ·
+<p style="margin-top:18px">MS-v7 · Social Autopilot adapted for the INEMA stack ·
       <a href="https://github.com/inematds/ms-v7">inematds/ms-v7</a> ·
       <a href="https://inema.club">INEMA.CLUB</a></p>
 </div>

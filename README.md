@@ -1,5 +1,7 @@
 # ms-v7 — Social Autopilot
 
+**🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
+
 Um arquivo de voz de marca + 3 prompts → posts nativos por rede, na sua voz, agendados pelo provedor que você escolher. **Nada vai ao ar sem o seu "sim".**
 
 Adaptado de *The Social Autopilot* (Zubair Trabzada, AI Workshop). Os originais (prompt pack, template de voz, transcrição do vídeo) estão em `docs/`. O plano de implementação está em `docs/PLANO.md`.
